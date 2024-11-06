@@ -1,6 +1,8 @@
 # Automated ETL Pipeline for Real-Time Weather Data of Coldest Cities in the USA Using AWS and Snowflake
 
 This project showcases a highly automated ETL (Extract, Transform, Load) pipeline designed for collecting, processing, and analyzing real-time weather data from the coldest cities in the USA. The architecture leverages AWS services and Snowflake to gather weather metrics at hourly intervals, ensuring the data is structured and stored efficiently for analysis.
+![WeatherAPI_pipeline_diagram](https://github.com/user-attachments/assets/391bb923-8e38-4685-98cc-a13c55e48697)
+
 
 ## Pipeline Overview
 ### 1. Data Collection and Scheduling:
