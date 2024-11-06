@@ -29,7 +29,7 @@ This project showcases a highly automated ETL (Extract, Transform, Load) pipelin
 
 **DynamoDB Streams:** Each time new data is ingested into the DynamoDB table, a stream event triggers, activating a Lambda function.
 
-**AWS Lambda for S3 Storage:** This Lambda function processes the streamed data and stores it in Amazon S3 in CSV format. The data is organized by state, with each file containing weather records for cities within that state. This ensures that the data is structured for easy downstream access and analysis.
+**AWS Lambda for S3 Storage:** This Lambda function processes the streamed data and stores it in Amazon S3 in CSV format. Each file contains weather records for individual cities, ensuring that city-specific data is easily accessible for downstream analysis. The data is organized within folders in S3, making it simple to retrieve and analyze city-level weather information as needed.
 
 ### 4. Long-Term Storage and Integration:
 
